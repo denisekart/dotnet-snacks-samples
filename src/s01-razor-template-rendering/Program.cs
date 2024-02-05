@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.Extensions.DependencyInjection;
 
-var services = new ServiceCollection()
+var provider = new ServiceCollection()
     .AddLogging()
     .AddTransient<HtmlRenderer>()
     .AddTransient<NewsletterRenderer>()
@@ -36,6 +36,6 @@ var content = new NewsletterComponent.NewsletterDto(
                  """),
     HeadingImageUrl: "https://slodug.blob.core.windows.net/uploads/a9424857-0326-49a4-bbb0-b89ecb9a1038/SloDug_wide_empty.png");
 
-var renderer = services.GetRequiredService<NewsletterRenderer>();
+var renderer = provider.GetRequiredService<NewsletterRenderer>();
 var newsletterHtml = await renderer.RenderHtml(content);
 // do something with the content here
