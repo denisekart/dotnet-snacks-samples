@@ -7,11 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bc53d1e-28f5-4f80-a6f7-22245cc13f15" name="Changes" comment="">
+    <list default="true" id="8bc53d1e-28f5-4f80-a6f7-22245cc13f15" name="Changes" comment="feat: renderer implementation and sample">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotnetSnacksSamples/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotnetSnacksSamples/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotnetSnacksSamples/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotnetSnacksSamples/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotnetSnacksSamples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotnetSnacksSamples/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/s01-razor-template-rendering/Components/NewsletterComponent.razor" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/s01-razor-template-rendering/Components/NewsletterContentComponent.razor" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/s01-razor-template-rendering/Components/NewsletterTrailerComponent.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s01-razor-template-rendering/ConsoleRazorRenderer.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/s01-razor-template-rendering/NewsletterRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s01-razor-template-rendering/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DotnetSnacksSamples.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DotnetSnacksSamples.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707123517372</updated>
-      <workItem from="1707123520834" duration="675000" />
+      <workItem from="1707123520834" duration="1003000" />
     </task>
     <servers />
   </component>
@@ -93,5 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat: renderer implementation and sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: renderer implementation and sample" />
   </component>
 </project>
